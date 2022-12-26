@@ -194,7 +194,7 @@ export default {
 .search-box {
     margin-left: 50%;
     margin-top: 2%;
-    width: 500px;
+    width: 40%;
     transform: translate(-50%);
     height: 40px;
     border-radius: 40px;
