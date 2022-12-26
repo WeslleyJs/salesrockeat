@@ -1,8 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router';
 
 import Home from './pages/Home';
-import User from './pages/User';
-import Login from './pages/Login';
 import Dashboard from './pages/Dashboard';
 import Err from './pages/Err'
 
@@ -10,16 +8,6 @@ const routes = [{
         path:'/',
         name: 'home',
         component: Home
-    },
-    {
-        path:'/register',
-        name: 'user',
-        component: User
-    },
-    {
-        path:'/login',
-        name: 'login',
-        component: Login
     },
     {
         path:'/:catchAll(.*)',
