@@ -19,7 +19,7 @@
                     <ul class="nav">
                         <li class="nav-link"><a href="https://www.instagram.com/weslleyvieira.c/"><img src="../assets/img/instagram.png"></a></li>
                         <li class="nav-link"><a href="https://www.linkedin.com/in/weslley-mateus-7a7a43220/"><img src="../assets/img/linkedin.png"></a></li>
-                        <li class="nav-link"><img src="../assets/img/github.png" alt=""><a href="https://github.com/TLT-sptb"></a></li>
+                        <li class="nav-link"><a href="https://github.com/TLT-sptb"><img src="../assets/img/github.png" alt=""></a></li>
                     </ul>
                 </div>
             </div>
