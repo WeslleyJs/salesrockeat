@@ -47,14 +47,6 @@ export default {
 </script>
 
 <style>
-.object_rocket{
-    z-index: 95;
-    position: absolute;
-    transform: translateX(-50px);
-    top: 75%;
-    pointer-events: none;
-    animation: rocket-movement 200s linear infinite both running;
-}
 
 body {
   background: url('./assets/bg_purple.png');
