@@ -12,7 +12,7 @@
             te ajudar</h2>
           </div>
           <div class="col-lg-6 hero-img aos-init aos-animate" data-aos="zoom-out" data-aos-delay="200">
-            <img data-aos="fade-left" data-aos-delay="400" src="../assets/img/hero-img.png" class="img-fluid" alt="">
+            <img data-aos="fade-left" data-aos-delay="400" src="../assets/img/hero-img.png" class="img-fluid pos" alt="">
           </div>
         </div>
        
@@ -70,6 +70,9 @@ export default {
 }
 </script>
 <style scoped >
+.pos{
+position: absolute;
+}
 .object_rocket{
     z-index: 95;
     position: absolute;
