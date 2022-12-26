@@ -135,8 +135,8 @@ export default {
 .object_earth{
     position:absolute;
     top: 15%;
-    width: 100px;
-    left: 90%;
+    width: 50px;
+    left: 80%;
     z-index: 90;
    animation: spin-earth 100s infinite linear both;
 }
