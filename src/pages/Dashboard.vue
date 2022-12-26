@@ -223,7 +223,7 @@ export default {
 
 .search-button {
     position: relative;
-    margin-left: -11%;
+    margin-left: -14%;
     width: 43.5px;
     height: 43.5px;
     border-radius: 50%;
