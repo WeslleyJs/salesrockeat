@@ -134,6 +134,13 @@ export default {
 
 </script>
 <style scoped>
+.bg-purple{
+  background: url('./assets/bg_purple.png');!important
+  background-repeat: no-repeat;!important
+  background-size: cover;!important
+  background-position: left top;!important
+  height: 100%;!important
+ }
 .object_earth{
     position:absolute;
     top: 15%;
