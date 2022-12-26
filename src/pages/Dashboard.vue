@@ -1,5 +1,6 @@
 <template>
     <Header/>
+    <div class="bg-purple">
     <div class="transi search-box bg-gradient">
         <input @keyup.enter="search" type="text" class="search-text" v-model="id" placeholder="MLB">
         <button type="submit" class="btn search-button btn-success" @click="search">
@@ -52,6 +53,7 @@
                 </div>
             </div>
         </section>
+    </div>
     </div>
 </template>
 <script>
@@ -132,6 +134,15 @@ export default {
 
 </script>
 <style scoped>
+.bg-purple{
+    background: url('../assets/bg_purple.png');
+    background-repeat: repeat-x;
+    background-size: cover;
+    background-position: left top;
+    height: 100%;
+    overflow: hidden;
+    
+}
 .object_earth{
     position:absolute;
     top: 15%;
