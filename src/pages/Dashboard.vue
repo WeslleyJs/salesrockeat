@@ -1,6 +1,6 @@
 <template>
         <Header/>
-        <div class="transi search-box bg-gradient">
+        <div class="transi search-box">
             <input @keyup.enter="search" type="text" class="search-text" v-model="id" placeholder="MLB">
             <button type="submit" class="btn search-button btn-success" @click="search">
                 <img src="../assets/img/icons8-pesquisar-480.svg" height="35" width="35">
