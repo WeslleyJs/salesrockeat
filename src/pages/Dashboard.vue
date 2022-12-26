@@ -136,7 +136,7 @@ export default {
 <style scoped>
 .bg-purple{
     background: url('../assets/bg_purple.png');
-    background-repeat: repeat-x;
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: left top;
     height: 100%;
