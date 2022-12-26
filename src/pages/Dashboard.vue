@@ -204,7 +204,7 @@ export default {
 }
 
 .search-text {
-    /* border: black; */
+    border: black;
     /* outline: none; */
     /* padding: 2px; */
     font-size: 16px;
