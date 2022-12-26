@@ -58,7 +58,7 @@ export default {
 
 body {
   background: url('./assets/bg_purple.png');
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: cover;
   background-position: left top;
   height: 100%;
