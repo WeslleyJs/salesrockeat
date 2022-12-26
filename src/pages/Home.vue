@@ -25,13 +25,13 @@
           style="width=50px; height=50px;" class="img-fluid" alt="">
       </div>
       <div class="col-lg-6 d-flex flex-column justify-content-center">
-        <h3 id="about" data-aos="fade-down" class="aos-init aos-animate"><b>Sobre-nós</b></h3>
+        <h3 id="about" data-aos="fade-right" class="aos-init aos-animate"><b>Sobre-nós</b></h3>
         <h4 data-aos="fade-down" data-aos-delay="400" class="aos-init aos-animate">
           Nossa Ferramenta tem como propósito, passar aos sellers uma visão maior sobre o mercado e
           seus concorrentes trazendo maior competitividade no mercado
           com anúncios mais atrativos.
         </h4>
-        <p data-aos="fade-down" data-aos-delay="700" class="aos-init aos-animate">
+        <p data-aos="fade-right" data-aos-delay="500" class="aos-init aos-animate">
           Vale lembrar que a API do Mercado Livre não fornece as informações precisas das informações.
           Tendo em mente de trazer privacidade para seus sellers.Sendo assim as informações presentes
           nesta ferramenta, trata-se de um valor aproximado, que o próprio Mercado Livre fornece em suas API's
