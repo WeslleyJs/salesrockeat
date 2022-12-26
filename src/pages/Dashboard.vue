@@ -1,5 +1,4 @@
 <template>
-  <div class="bg-purple">
         <Header/>
         <div class="transi search-box bg-gradient">
             <input @keyup.enter="search" type="text" class="search-text" v-model="id" placeholder="MLB">
@@ -54,7 +53,6 @@
                 </div>
             </section>
         </div>
-    </div>
 </template>
 <script>
 import axios from 'axios';
@@ -134,13 +132,6 @@ export default {
 
 </script>
 <style scoped>
-.bg-purple{
-  background: url('./assets/bg_purple.png');!important
-  background-repeat: no-repeat;!important
-  background-size: cover;!important
-  background-position: left top;!important
-  height: 100%;!important
- }
 .object_earth{
     position:absolute;
     top: 15%;
