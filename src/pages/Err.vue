@@ -115,13 +115,8 @@ html, body{
 }
 
 .bg-purple{
-    background: url('../assets/bg_purple.png');
-    background-repeat: repeat-x;
-    background-size: cover;
-    background-position: left top;
-    height: 100%;
-    overflow: hidden;
-    
+background: rgb(62,0,247);
+background: radial-gradient(circle, rgba(62,0,247,1) 0%, rgba(125,45,231,1) 100%);    
 }
 
 .custom-navbar{
