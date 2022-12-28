@@ -70,13 +70,14 @@ export default {
 }
 </script>
 <style scoped >
+
 .object_rocket{
     z-index: 95;
     position: absolute;
     transform: translateX(-50px);
     top: 75%;
     pointer-events: none;
-    animation: rocket-movement 40s linear infinite both running;
+    animation: rocket-movement 100s linear infinite both running;
 }
 @-moz-keyframes rocket-movement { 100% {-moz-transform: translate(1200px,-600px);} }
 @-webkit-keyframes rocket-movement {100% {-webkit-transform: translate(1200px,-600px); } }
