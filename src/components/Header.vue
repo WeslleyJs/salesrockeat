@@ -3,7 +3,7 @@
     <header id="header-element" class="p-3 text-white header-controll table">
         <div class="container header-controll-1">
             <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-                <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none mImg">
                     <img style="width:40px" src="../assets/img/logo.png" alt="">
                 </a>
                 <ul class="spinner nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
@@ -42,6 +42,10 @@ export default {
 }
 </script>
 <style>
+.mImg{
+    background-color: rgba(20,20,20,0.5);
+    border-radius: 50%;
+}
 .sticky-top, .bg-gradient, .bg-dark{
     transition: 1s;
 }
