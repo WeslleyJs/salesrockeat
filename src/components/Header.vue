@@ -1,14 +1,18 @@
 <template>
-    <header class="p-3 bg-dark bg-gradient text-white header-controll">
+    <!-- bg-dark bg-gradient -->
+    <header id="header-element" class="p-3 text-white header-controll table">
         <div class="container header-controll-1">
             <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
                 <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
                     <img src="../assets/img/logo.png" alt="">
                 </a>
                 <ul class="spinner nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                    <li class="nav-link px-2 text-secondary" id="inicio"><span><a href="/">Home</a></span></li>
-                    <li class="nav-link px-2 text-white" id="analytics"><span><a href="/dashboard">Analytics</a></span></li>
-                    <li class="nav-link px-2 text-white about" id="about"><span><a href="/">About</a></span></li>
+                    <li class="nav-link px-2 text-secondary btn-request" id="inicio"><span><a href="/">Home</a></span>
+                    </li>
+                    <li class="nav-link px-2 text-white btn-request" id="analytics"><span><a
+                                href="/dashboard">Analytics</a></span></li>
+                    <li class="nav-link px-2 text-white about btn-request" id="about"><span><a href="/">About</a></span>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -16,10 +20,47 @@
 </template>
 <script>
 export default {
-    name: 'Home-bar'
+    name: 'Home-bar',
+    mounted() {
+        window.addEventListener("scroll", this.onScroll)
+    },
+    methods: {
+        onScroll(e) {e
+            const element = document.getElementById('header-element');
+            const bg = 'sticky-top'
+            const bg_dark = 'bg-dark'
+            const bg_gradient = 'bg-gradient'
+            if(window.top.scrollY > 70){
+                element.classList.add(bg, bg_dark, bg_gradient);
+            }else{
+                element.classList.remove(bg, bg_dark, bg_gradient);
+            }
+            // console.log(e)
+            // e.target.documentElement.scrollTop
+        }
+    }
 }
 </script>
 <style>
+.sticky-top, .bg-gradient, .bg-dark{
+    transition: 1s;
+}
+.btn-request {
+    padding: 10px 25px;
+    border: 1px solid #f04725;
+    border-radius: 100px;
+    font-weight: 400;
+    margin-left: 8px;
+}
+
+.btn-request:hover {
+    background: rgb(10, 8, 215);
+    background: radial-gradient(circle, rgba(10, 120, 215, 1) 10%, rgba(10, 8, 215, 1) 100%);
+    color: #fff;
+    transform: scale(1.05);
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.1);
+}
+
 a {
     list-style: none;
     color: white;
