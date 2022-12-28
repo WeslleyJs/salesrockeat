@@ -45,6 +45,8 @@ export default {
 .mImg{
     background-color: rgba(20,20,20,0.5);
     border-radius: 50%;
+    width:44px;
+    height:44px;
 }
 .sticky-top, .bg-gradient, .bg-dark{
     transition: 1s;
