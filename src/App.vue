@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="stars">
     <router-view></router-view>
   </div>
 </template>
@@ -51,6 +51,12 @@ export default {
 body {
 background: rgb(62,0,247);
 background: radial-gradient(circle, rgba(62,0,247,1) 0%, rgba(125,45,231,1) 100%);
+}
+.stars{
+    background: url('./assets/overlay_stars.svg');
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: left top;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
