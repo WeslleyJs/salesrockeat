@@ -3,8 +3,8 @@
     <header id="header-element" class="p-3 text-white header-controll table">
         <div class="container header-controll-1">
             <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-                <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none mImg">
-                    <img style="width:40px" src="../assets/img/logo.png" alt="">
+                <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none ">
+                    <img class="mImg" style="width:40px" src="../assets/img/logo.png" alt="">
                 </a>
                 <ul class="spinner nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
                     <li class="nav-link px-2 text-secondary btn-request" id="inicio"><span><a href="/">Home</a></span>
