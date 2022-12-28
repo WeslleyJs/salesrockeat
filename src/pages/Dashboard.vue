@@ -1,8 +1,8 @@
 <template>
-        <Header/>
+        <Header class="bg-dark"/>
         <div class="transi search-box">
             <input @keyup.enter="search" type="text" class="search-text" v-model="id" placeholder="MLB">
-            <button type="submit" class="btn search-button btn-success" @click="search">
+            <button type="submit" class="btn search-button" @click="search">
                 <img src="../assets/img/icons8-pesquisar-480.svg" height="35" width="35">
             </button>
         </div>
@@ -213,6 +213,7 @@ export default {
     max-width: 1;
     border-radius: 40px;
     width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 .search-text::placeholder {
@@ -222,6 +223,7 @@ export default {
 }
 
 .search-button {
+    background: none;
     position: relative;
     margin-left: -14%;
     width: 43.5px;
@@ -230,6 +232,11 @@ export default {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.search-button:hover{
+    background: rgb(10,8,215);
+    background: radial-gradient(circle, rgba(10,8,215,1) 10%, rgba(252,75,70,1) 100%);
+    transition: 1s;
 }
 
 .box {
