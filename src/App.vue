@@ -52,6 +52,19 @@ body {
 background: rgb(62,0,247);
 background: radial-gradient(circle, rgba(62,0,247,1) 0%, rgba(125,45,231,1) 100%);
 }
+body::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(62,0,247);        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: radial-gradient(circle, rgba(62,0,247,1) 0%, rgba(125,45,231,1) 100%);/* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid orange;  /* creates padding around scroll thumb */
+}
 .stars{
     background: url('./assets/overlay_stars.svg');
     background-repeat: repeat;
