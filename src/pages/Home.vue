@@ -18,7 +18,7 @@
        
     </div>
   </div>
-  <div class="container space myTop">
+  <div class="container space">
     <div class="row">
       <div class="col-lg-6 hero-img aos-init aos-animate" data-aos="zoom-out" data-aos-delay="200">
         <img data-aos="fade-right" data-aos-delay="500" src="../assets/img/features-2.png"
@@ -86,15 +86,11 @@ export default {
     z-index: 90;
     pointer-events: none;
 }
-.myTop{
- margin-top:4%;
- }
-
 *{
   color: white;
 }
 .space {
-  margin-top: 2%;
+  margin-top: 6%;
 }
 .bgColor {  
   width: 100%;
