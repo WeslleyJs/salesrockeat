@@ -18,7 +18,7 @@
        
     </div>
   </div>
-  <div class="container space">
+  <div class="container space myTop">
     <div class="row">
       <div class="col-lg-6 hero-img aos-init aos-animate" data-aos="zoom-out" data-aos-delay="200">
         <img data-aos="fade-right" data-aos-delay="500" src="../assets/img/features-2.png"
@@ -40,7 +40,7 @@
     </div>
   </div>
   <div>
-  <div class="container space">
+  <div class="container space myTop">
     <div class="row">
       <div data-aos="fade-up" data-aos-delay="400" class="col-lg-6 d-flex flex-column justify-content-center">
         <h4 data-aos="fade-up" data-aos-delay="400" class="aos-init aos-animate">    
@@ -86,6 +86,9 @@ export default {
     z-index: 90;
     pointer-events: none;
 }
+.myTop{
+ margin-top:4%;
+ }
 
 *{
   color: white;
