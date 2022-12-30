@@ -45,13 +45,13 @@ export default {
 </script>
 <style>
 .bg-transi{
-transition: 1s;
+transition: .8s;
 }
 .mImg{
     border-radius: 50%;
 }
 .sticky-top, .bg-gradient, .bg-dark{
-    transition: 1s;
+    transition: .8s;
 }
 .btn-request {
     padding: 10px 25px;
