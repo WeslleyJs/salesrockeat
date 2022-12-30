@@ -57,7 +57,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-  background: rgb(62,0,247);        /* color of the tracking area */
+  background: rgb(0,0,0);        /* color of the tracking area */
 }
 
 body::-webkit-scrollbar-thumb {
