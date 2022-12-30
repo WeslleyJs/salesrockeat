@@ -26,7 +26,7 @@
         </div>
         <p><a href="https://www.flaticon.com/br/icones-gratis/instagram" title="instagram ícones">Créditos Icones</a></p> 
         <div class="text-center" style="background-color: #333; padding: 20px;">
-            2022 Copyright: <a href="#">Clean Analytics</a>
+            2022 Copyright: <a href="#">Sales Rocket</a>
         </div>
     </footer>
 </template>
@@ -37,7 +37,7 @@ export default {
 </script>
 <style scoped>
 img{
-    width: 25px;
+    width: 50px;
 }
 img:hover{
     color: red;
