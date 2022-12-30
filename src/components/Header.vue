@@ -1,6 +1,6 @@
 <template>
     <!-- bg-dark bg-gradient -->
-    <header id="header-element" class="p-3 text-white header-controll table bg-transi">
+    <header id="header-element" class="p-3 text-white header-controll table">
         <div class="container header-controll-1">
             <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
                 <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none ">
@@ -30,10 +30,12 @@ export default {
             const bg = 'sticky-top'
             const bg_dark = 'bg-dark'
             const bg_gradient = 'bg-gradient'
+            const bgTra = 'bg-transi'
             if(window.top.scrollY > 70){
                 element.classList.add(bg, bg_dark, bg_gradient);
             }else{
                 element.classList.remove(bg, bg_dark, bg_gradient);
+                element.classList.add(bgTra);
             }
             // console.log(e)
             // e.target.documentElement.scrollTop
