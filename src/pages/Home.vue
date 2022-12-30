@@ -5,9 +5,9 @@
     <img class="object_rocket" src="../assets/rocket.svg" width="60px">
     <div class="container">
       <div class="row">
-        <div data-aos="fade-left" data-aos-delay="400" class="col-lg-6 d-flex flex-column justify-content-center">
+        <div data-aos="fade-left" data-aos-delay="500" class="col-lg-6 d-flex flex-column justify-content-center">
           <h1 data-aos-delay="400" class="aos-init aos-animate">Oferecemos soluções modernas para seu e-commerce</h1>
-          <h2 data-aos="fade-up" data-aos-delay="400" class="aos-init aos-animate">Somos uma equipe talentosa dispostos
+          <h2 data-aos="fade-up" data-aos-delay="500" class="aos-init aos-animate">Somos uma equipe talentosa dispostos
             a
             te ajudar</h2>
           </div>
@@ -21,7 +21,7 @@
   <div class="container space">
     <div class="row">
       <div class="col-lg-6 hero-img aos-init aos-animate" data-aos="zoom-out" data-aos-delay="200">
-        <img data-aos="fade-right" data-aos-delay="400" src="../assets/img/features-2.png"
+        <img data-aos="fade-left" data-aos-delay="500" src="../assets/img/features-2.png"
           style="width=50px; height=50px;" class="img-fluid" alt="">
       </div>
       <div class="col-lg-6 d-flex flex-column justify-content-center">
@@ -42,14 +42,14 @@
   <div>
   <div class="container space">
     <div class="row">
-      <div data-aos="fade-right" data-aos-delay="300" class="col-lg-6 d-flex flex-column justify-content-center">
-        <h4 data-aos="fade-right" data-aos-delay="300" class="aos-init aos-animate">    
+      <div data-aos="fade-right" data-aos-delay="400" class="col-lg-6 d-flex flex-column justify-content-center">
+        <h4 data-aos="fade-right" data-aos-delay="400" class="aos-init aos-animate">    
           Desenvolvido para seu negócio decolar,
           Embarque você também nesse foguete de vendas
         </h4>
       </div>
       <div class="col-lg-6 hero-img aos-init aos-animate" data-aos="zoom-out" data-aos-delay="200">
-        <img data-aos="fade-down" data-aos-delay="300" src="https://preview.uideck.com/items/appvilla/assets/images/hero/phone.png"
+        <img data-aos="fade-down" data-aos-delay="400" src="https://preview.uideck.com/items/appvilla/assets/images/hero/phone.png"
           style="width=50px; height=50px;" class="img-fluid" alt="">
       </div>
     </div>
