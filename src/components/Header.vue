@@ -30,7 +30,7 @@ export default {
             const bg = 'sticky-top'
             const bg_dark = 'bg-dark'
             const bg_gradient = 'bg-gradient'
-            if(window.top.scrollY > 80){
+            if(window.top.scrollY > 70){
                 element.classList.add(bg, bg_dark, bg_gradient);
             }else{
                 element.classList.remove(bg, bg_dark, bg_gradient);
