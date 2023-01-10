@@ -14,8 +14,9 @@
             <img src="../assets/img/icons8-pesquisar-480.svg" height="35" width="35">
         </button>
     </div>
+    <!--
     <p>MLB1830777149</p>
-    <p>2742122115</p>
+    <p>2742122115</p> -->
     <!-- http://salehriaz.com/404Page/img/earth.svg -->
     <img class="object_earth" src="../assets/earth.svg" width="100px">
     <div v-if="clk">
@@ -245,7 +246,6 @@ export default {
     border: 1px solid #f04725;
     font-weight: 400;
     border-radius: 100px;
-    margin-left: 8px;
     max-width: auto;
     color: #fff;
     transition: 1s;
