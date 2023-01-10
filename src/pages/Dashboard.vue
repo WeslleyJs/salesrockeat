@@ -10,7 +10,7 @@
     </div>
     <div class="transi search-box">
         <input @keyup.enter="search" id="inpt" type="text" class="search-text" v-model="id" placeholder="MLB">
-        <button type="submit" class="btn search-button" @click="search && destroyChart">
+        <button type="submit" class="btn search-button" @click="search">
             <img src="../assets/img/icons8-pesquisar-480.svg" height="35" width="35">
         </button>
     </div>
