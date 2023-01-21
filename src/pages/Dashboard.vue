@@ -157,7 +157,7 @@ export default {
                 }
                 ))
                 this.day01 = myDatas
-            }).catch(err => console.warn(err.message));
+            }).catch(err => console.warn(err));
 
             this.chart();
         },
