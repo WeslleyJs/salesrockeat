@@ -228,40 +228,6 @@ export default {
 
 </script>
 <style scoped>
-@media (min-width: 576px) {
-    .mx-auto{
-        display:block
-    }
-    .card-body, .myBox{
-        width:80px;
-        background-color:purple;
-        max-height:50px;
-    }
- }
-@media (min-width: 768px) {
-    .mx-auto{
-        display:block
-    }
-    .card-body, .myBox{
-        width:80px;
-        background-color:purple;
-        max-height:50px;
-    }
- }
-@media (min-width: 992px) {
-    .mx-auto{
-        display:block
-    }
-    .card-body, .myBox{
-        width:80px;
-        background-color:purple;
-        max-height:50px;
-    }
- }
-
-
-
-
 
 
 .mid{
