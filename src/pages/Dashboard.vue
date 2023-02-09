@@ -230,10 +230,9 @@ export default {
 <style scoped>
 @media (min-width: 576px) {
     .mx-auto{
-        width: 100%;
+        display:block
     }
     .card-body, .myBox{
-        display:block;
         width:80px;
         background-color:purple;
         max-height:50px;
@@ -241,10 +240,9 @@ export default {
  }
 @media (min-width: 768px) {
     .mx-auto{
-        width: 100%;
+        display:block
     }
     .card-body, .myBox{
-        display:block;
         width:80px;
         background-color:purple;
         max-height:50px;
@@ -252,10 +250,9 @@ export default {
  }
 @media (min-width: 992px) {
     .mx-auto{
-        width: 100%;
+        display:block
     }
     .card-body, .myBox{
-        display:block;
         width:80px;
         background-color:purple;
         max-height:50px;
