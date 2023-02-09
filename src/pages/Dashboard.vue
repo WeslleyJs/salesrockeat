@@ -228,6 +228,38 @@ export default {
 
 </script>
 <style scoped>
+@media (min-width: 576px) {
+    .mx-auto{
+        width: 100%;
+    }
+    .card-body, .myBox{
+        display:block;
+        width:80px
+    }
+ }
+@media (min-width: 768px) {
+    .mx-auto{
+        width: 100%;
+    }
+    .card-body, .myBox{
+        display:block;
+        width:80px
+    }
+ }
+@media (min-width: 992px) {
+    .mx-auto{
+        width: 100%;
+    }
+    .card-body, .myBox{
+        display:block;
+        width:80px
+    }
+ }
+
+
+
+
+
 
 .mid{
     display: flex;
