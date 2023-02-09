@@ -234,7 +234,9 @@ export default {
     }
     .card-body, .myBox{
         display:block;
-        width:80px
+        width:80px;
+        background-color:purple;
+        max-height:50px;
     }
  }
 @media (min-width: 768px) {
@@ -243,7 +245,9 @@ export default {
     }
     .card-body, .myBox{
         display:block;
-        width:80px
+        width:80px;
+        background-color:purple;
+        max-height:50px;
     }
  }
 @media (min-width: 992px) {
@@ -252,7 +256,9 @@ export default {
     }
     .card-body, .myBox{
         display:block;
-        width:80px
+        width:80px;
+        background-color:purple;
+        max-height:50px;
     }
  }
 
