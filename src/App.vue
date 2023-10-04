@@ -1,10 +1,12 @@
 <template>
   <div id="app" class="stars">
     <router-view></router-view>
+    <h1>ACESSE NOSSO NOVO SITE <a href="https://salesrocket.info/">AQUI</a></h1>
   </div>
 </template>
 
 <script>
+  /*
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 AOS.init();
@@ -44,6 +46,7 @@ export default {
     }
   }
 }
+*/
 </script>
 
 <style>
