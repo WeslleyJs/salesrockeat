@@ -1,6 +1,6 @@
 <template>
   <div id="app" class="stars">
-    <router-view></router-view>
+    <!-- <router-view></router-view> -->
     <h1>ACESSE NOSSO NOVO SITE <a href="https://salesrocket.info/">AQUI</a></h1>
   </div>
 </template>
